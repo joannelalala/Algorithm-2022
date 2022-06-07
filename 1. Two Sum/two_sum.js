@@ -6,11 +6,15 @@
  var twoSum = function(nums, target) {
     
     // create a map
+
     const d = {};
 
     // loop through nums; JavaScript does not provide something like Python's enumerate statement, just looping through the list
+
     for (let i = 0; i < nums.length; i ++){
+
         // create a variable, m, to represent the difference between the target and the starting value
+        
         let m = target - nums[i];
 
         // if m exists in the map, d, we return the starting index, i, and the corresponding index of m;
